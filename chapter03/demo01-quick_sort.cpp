@@ -4,7 +4,7 @@ int Partition(int a[], int s, int t) //划分算法
 {
     int i = s, j = t;
     int tmp = a[s];
-    while (i!= j)
+    while (i != j)
     {
         while (j > i && a[j] >= tmp)
         {
@@ -22,11 +22,11 @@ int Partition(int a[], int s, int t) //划分算法
 }
 void QuickSort(int a[], int s, int t)
 {
-    if ( s < t)
+    if (s < t)
     {
         int i = Partition(a, s, t);
         QuickSort(a, s, i - 1);
-        QuickSort(a, i+1, t);
+        QuickSort(a, i + 1, t);
     }
 }
 int main()
