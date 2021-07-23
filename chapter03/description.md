@@ -106,5 +106,9 @@ int Solution(int a[], int n) //求解
 
 ![](./screenshots/ame.png)
 
+2. 自顶向下的二路归并排序的过程
+
+![](./screenshots/merge_sort_2.png)
+
 
 

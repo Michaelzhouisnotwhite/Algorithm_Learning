@@ -8,8 +8,12 @@ chapter03/demo01-quick_sort.pdb
 chapter03/demo01-quick_sort.exe
 chapter03/vc140.pdb
 chapter03/screenshots/test_pic.png
-*/.ilk/
-*/.obj/
+*/*.ilk/
+*/*.obj/
+*.ilk
+*.obj
 *.exe
 .vscode
-**/.pdb/
+*.pdb/
+chapter01/demo01-hanoi.pdb
+*/*.pdb
