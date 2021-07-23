@@ -1,7 +1,8 @@
 from PIL import Image, ImageGrab
 import sys
 import getopt
-
+import os
+os.chdir(os.path.dirname(__file__)) 
 
 def get_name(argv):
     file_name = ""

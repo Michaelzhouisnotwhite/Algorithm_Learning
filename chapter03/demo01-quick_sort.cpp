@@ -1,6 +1,7 @@
 #include <iostream>
+#include <vector>
 
-int Partition(int a[], int s, int t) //划分算法
+int Partition(std::vector<int> &a, const int s, const int t) //划分算法
 {
     int i = s, j = t;
     int tmp = a[s];
@@ -20,7 +21,7 @@ int Partition(int a[], int s, int t) //划分算法
     a[i] = tmp;
     return i;
 }
-void QuickSort(int a[], int s, int t)
+void QuickSort(std::vector<int> &a, const int s, const int t)
 {
     if (s < t)
     {
@@ -31,7 +32,8 @@ void QuickSort(int a[], int s, int t)
 }
 int main()
 {
-    int a[] = {2, 5, 1, 7, 10, 6, 9, 4, 3, 8};
+    // int a[] = {2, 5, 1, 7, 10, 6, 9, 4, 3, 8};
+    std::vector<int> a = {5, 2, 1, 7, 10, 6, 9, 4, 3, 8};
     std::cout << "before:";
     for (auto i : a)
     {
