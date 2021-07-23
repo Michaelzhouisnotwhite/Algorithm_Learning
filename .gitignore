@@ -12,4 +12,4 @@ chapter03/screenshots/test_pic.png
 */.obj/
 *.exe
 .vscode
-*/.pdb
+**/.pdb/
