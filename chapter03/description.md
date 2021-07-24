@@ -6,6 +6,7 @@
       - [快速排序时间复杂度：](#快速排序时间复杂度)
       - [**2016年全国计算机学科专业考研题:**](#2016年全国计算机学科专业考研题)
     - [2.归并排序](#2归并排序)
+    - [3.查找问题](#3查找问题)
 
 
 ## 二分法
@@ -104,11 +105,23 @@ int Solution(int a[], int n) //求解
 
 1. 自底向上的二路归并排序算法
 
-![](./screenshots/ame.png)
+<div style="text-align: center;">
+    <img src="./screenshots/ame.png" alt="" width="450">
+</div>
 
-2. 自顶向下的二路归并排序的过程
+1. 自顶向下的二路归并排序的过程
 
-![](./screenshots/merge_sort_2.png)
+<div style="text-align: center;">
+    <img src="./screenshots/merge_sort_2.png" alt="" width="450">
+</div>
 
+### 3.查找问题
 
+**查找最大&次大元素**
+
+过程：
+
+1. 如果只有两个元素，那么$max_1=MAX\{a[low]，a[high]\}，max_2=MIN\{a[low]，a[high]\}$
+2. 如果有两个以上的元素，那么按中间位置分成两部分，分别找出两个部分的最大次大元素，最后再比较四个元素中最大次大的元素(合并)
+3. 合并
 
